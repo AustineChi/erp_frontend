@@ -139,11 +139,23 @@ export const IacMenu = [
   },
 ];
 
-
 export const VendorMenu = [
   {
     path: "/dashboard",
     name: "Dashboard",
     icon: HomeIcon,
   },
+];
+
+export const ProcurementMenu = [
+  {
+    path: "/dashboard",
+    name: "Dashboard",
+    icon: HomeIcon,
+  },
+  {
+    path: "/vendor/type/approved",
+    name: "Approved Vendors",
+    icon: LibraryBooks,
+  }
 ];

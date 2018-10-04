@@ -126,7 +126,7 @@ render(){
                  <Dvr />
               </Button>
               {/* use this button to remove the data row */}
-            {  <Button
+            { (this.props.user.role === "procurement")? "": <Button
                 justIcon
                 round
                 simple
